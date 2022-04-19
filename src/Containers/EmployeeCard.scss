@@ -1,0 +1,19 @@
+@use '../App.scss' as *;
+
+.ticket__tracker {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  gap: 1rem;
+  margin: 10px;
+}
+
+.employee__card {
+  border: 2px solid black;
+  height: 300px;
+  padding: 5px;
+  background-color: rgb(209, 234, 255);
+}
+
+.name__container {
+  height: 40%;
+}

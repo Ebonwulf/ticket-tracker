@@ -1,0 +1,29 @@
+@use '../App.scss' as *;
+
+.counter__card {
+  border: 2px solid blueviolet;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  margin: 10px;
+}
+
+p {
+  margin: 10px;
+}
+
+button {
+  width: 50px;
+  margin: 5px;
+  font-size: 1em;
+  background-color: rgb(131, 2, 252);
+  color: white;
+  border-radius: 15px;
+}
+button:active {
+  background-color: white;
+  color: rgb(131, 2, 252);
+}
