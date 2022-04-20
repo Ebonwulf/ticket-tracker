@@ -1,5 +1,4 @@
 import { useState } from 'react';
-
 import './TicketCountCard.scss';
 
 const TicketCountCard = () => {
